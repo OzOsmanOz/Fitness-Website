@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* --------------------- Header Start --------------------- */
+
+.header{
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+   
+}
+
+.header .nav-link{
+    font-size: .8rem !important;
+}
+
+/* --------------------- Animations Start --------------------- */
+
+.animations .container{
+    transform: translateY(-190px);
+    background-color: aliceblue;
+}
+
+/* --------------------- Features Start --------------------- */
+
+#features .features-text{
+    text-align: justify;
+}
+
+/* --------------------- Rewiews Start --------------------- */
+
+
+.rewiews{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(./img/feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
